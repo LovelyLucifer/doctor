@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">医生工作室(医生版)</string>
+    <string name="app_login_doctorstudio_title1">医生工作室</string>
+    <string name="app_login_doctorstudio_title2">(医生端）</string>
+    <string name="app_login_username">用户名</string>
+    <string name="app_login_password">密码</string>
+    <string name="app_login_input_phone">请输入手机号码</string>
+    <string name="app_login_input_password">请输入密码</string>
+    <string name="app_login_getbackpassword">找回密码</string>
+    <string name="app_login_rememberpassword">记住密码</string>
+    <string name="app_login_login_button">登录</string>
+    <string name="app_login_contact">联系客服</string>
+    <string name="app_forget_backbtn">返回</string>
+    <string name="app_forget_getbackpassword_title">找回密码</string>
+    <string name="app_forget_submit">提交</string>
+    <string name="app_forget_phone_text">请输入手机号</string>
+    <string name="app_index_title1">预约台</string>
+    <string name="app_index_title2">诊断室</string>
+    <string name="app_index_dcname">汪洋</string>
+    <string name="app_index_dccourse">心血管内科</string>
+    <string name="app_index_dctitle">主治医师</string>
+    <string name="app_index_dchosiptal">武汉大学人民医院</string>
+    <string name="app_index_weekday">星期</string>
+    <string name="app_index_dctime">门诊时间</string>
+    <string name="app_index_dcweekday">一</string>
+    <string name="app_index_dc_time">上午</string>
+    <string name="app_index_dctsetime">时间</string>
+    <string name="app_index_dccard">生成预约码</string>
+    <string name="app_password_manager">密码管理</string>
+
+</resources>

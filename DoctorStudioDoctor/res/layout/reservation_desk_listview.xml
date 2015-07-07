@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp" >
+       
+    <TextView
+        android:id="@+id/textView_dose4_my_recipe_listview"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="一"
+        android:textSize="16sp"
+        android:textColor="@color/background_dark_gray"
+        android:layout_weight="3"
+        android:background="@android:color/white"
+       />
+    
+    <TextView
+        android:id="@+id/textView_delete_my_recipe_listview"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="上午"
+        android:textSize="16sp"
+        android:textColor="@color/title_green"
+        android:layout_weight="2"
+        android:background="@android:color/white" />
+
+</LinearLayout>

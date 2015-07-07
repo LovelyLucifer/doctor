@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:background="@android:color/white">
+    
+    
+    <TextView
+        android:id="@+id/textView_dose1_my_recipe_listview"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="一"
+        android:textSize="16sp"
+        android:textColor="@color/background_dark_gray"
+        android:layout_weight="3"
+        android:background="@android:color/white"
+        android:maxLength="4" />
+    <RelativeLayout
+        android:id="@+id/relativeLayout_name_my_recipe_listview"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="2.8"
+        android:background="@android:color/white" >
+        
+        <TextView
+            android:id="@+id/textView_name_my_recipe_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2月3日"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/background_dark_gray"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="2dp"
+            android:lines="2" />
+        
+        <TextView
+            android:id="@+id/textView_common_my_recipe_listview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:20-12:20"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:background="@android:color/white"
+            android:textColor="@color/background_dark_gray"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="2dp"
+            android:lines="2" />
+        
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/textView_dose2_my_recipe_listview"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="15"
+        android:textSize="16sp"
+        android:textColor="@color/background_dark_gray"
+        android:layout_weight="3"
+        android:background="@android:color/white"
+        android:maxLength="4" />
+    
+    <TextView
+        android:id="@+id/textView_dose3_my_recipe_listview"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="12"
+        android:textSize="16sp"
+        android:textColor="@color/background_dark_gray"
+        android:layout_weight="3"
+        android:background="@android:color/white"
+        android:maxLength="4" />
+    
+    
+   
+    
+    <Button
+        android:id="@+id/textView_delete_my_recipe_listview"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="查看"
+        android:textSize="16sp"
+        android:textColor="@color/title_green"
+        android:layout_weight="3"
+        android:background="@drawable/app_forget_submit_frame" />
+
+</LinearLayout>
